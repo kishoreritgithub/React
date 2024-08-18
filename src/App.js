@@ -1,14 +1,13 @@
 
 import './App.css';
-
-import UseReducer from './component/hook/UseReducer';
+import UseEffect from './component/hook/UseEffect';
 
 function App() {
   return (
     <div className="App">
-     <UseReducer/>
+    <UseEffect />
     </div>
-  );
+);
 }
 
 export default App;

@@ -15,6 +15,7 @@ const UseState = () => {
       setNum((num)=>num-1)
         console.log(num);
          
+        
     }
   return (
     <div>
