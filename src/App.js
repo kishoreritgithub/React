@@ -1,11 +1,11 @@
 
 import './App.css';
-import UseEffect from './component/hook/UseEffect';
+import UseReducer from './component/hook/UseEffect';
 
 function App() {
   return (
     <div className="App">
-    <UseEffect />
+    <UseReducer />
     </div>
 );
 }

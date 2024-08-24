@@ -10,7 +10,7 @@ const UseEffect = () => {
     
   return (
  <>
-    <h1>count1:{count1}</h1>
+    <h2>count1:{count1}</h2>
     <button onClick={()=>{setCount1((count1)=>count1+1)}}>count1 increment</button>
     <h1>count2:{count2}</h1>
     <button onClick={()=>{setCount2((count2)=>count2+1)}}>count2 increment</button>
